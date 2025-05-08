@@ -34,5 +34,5 @@ make -j$(nproc)
 make install
 ```
 
-Alternatively, you can also run the uploaded bash file install_dd4hep.sh to install the DD4hep 
+Alternatively, you can also run the uploaded bash file install_dd4hep.sh to install the DD4hep.
 
