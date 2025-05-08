@@ -11,7 +11,8 @@ Create a directory and clone the DD4hep repository.
 ```
 mkdir your_dd4hep
 cd your_dd4hep
-
+```
+```
 git clone https://github.com/AIDASoft/DD4hep.git
 ```
 
@@ -19,13 +20,15 @@ git clone https://github.com/AIDASoft/DD4hep.git
 With the environment configured, you can now clone and build DD4hep
 ```
 mkdir ~/DD4hep/build && cd ~DD4hep/build
-
+```
+```
 # Configure the build with CMake
 cmake .. \
   -DCMAKE_INSTALL_PREFIX=~/dd4hep_ws/DD4hep-install \
   -DDD4HEP_USE_GEANT4=ON \
   -DDD4HEP_USE_LCIO=ON
-
+```
+```
 # Compile and install
 make -j$(nproc)
 make install
